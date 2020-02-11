@@ -2,10 +2,10 @@
   display: none;
 }
 
-#arsinoitherium-control:checked ~ .carasoul-inner #arsinoitherium,
-#elasmotherium-control:checked ~ .carasoul-inner #elasmotherium,
-#glyptodon-control:checked ~ .carasoul-inner #glyptodon,
-#megatherium-control:checked ~ .carasoul-inner #megatherium {
+#arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium,
+#elasmotherium-control:checked ~ .carousel-inner #elasmotherium,
+#glyptodon-control:checked ~ .carousel-inner #glyptodon,
+#megatherium-control:checked ~ .carousel-inner #megatherium {
   display: block;
 }
 
@@ -14,9 +14,9 @@
   border-radius: 50%;
 }
 
-#arsinoitherium-control:checked ~ .carasoul-inner [for="arsinoitherium"],
-#elasmotherium-control:checked ~ .carasoul-inner [for="elasmotherium"],
-#glyptodon-control:checked ~ .carasoul-inner [for="glyptodon"],
-#megatherium-control:checked ~ .carasoul-inner [for="megatherium"] {
+#arsinoitherium-control:checked ~ .carousel-inner [for="arsinoitherium-control"],
+#elasmotherium-control:checked ~ .carousel-inner [for="elasmotherium-control"],
+#glyptodon-control:checked ~ .carousel-inner [for="glyptodon-control"],
+#megatherium-control:checked ~ .carousel-inner [for="megatherium-control"] {
   background-color: #fff;
 }
